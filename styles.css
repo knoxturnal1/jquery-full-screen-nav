@@ -1,0 +1,61 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+.container-fluid.bgImage {
+	background: url("bgImage.jpg") no-repeat;
+	width: 100%;
+	background-size: cover;
+	height: 800px;
+}
+p.logo {
+	color: #fff;
+	font-size: 30px;
+	padding-top: 30px;
+	text-transform: lowercase;
+	font-family: 'Lobster', cursive;
+}
+.navbar-buttons {
+	text-align: right;
+    margin-top: 30px;
+}
+.navbar-buttons button {
+	background-color: transparent;
+    border: none;
+    font-size: 30px;
+    position: relative;
+    z-index: 100;
+}
+.navbar-buttons button a:link,
+.navbar-buttons button a:visited,
+.navbar-buttons button a:active {
+	color: #fff;
+}
+.overlay {
+	display: none;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    height: 800px;
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(130,0,0, .8);
+}
+.overlay ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	top: 30%;
+}
+.overlay ul li a:link,
+.overlay ul li a:visited,
+.overlay ul li a:active {
+	color: #fff;
+	text-transform: lowercase;
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+}
