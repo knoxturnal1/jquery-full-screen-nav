@@ -1,6 +1,7 @@
 var overlay = $('.overlay');
 
-$("button").on('click', function() {
+$("button").on('click', function(e) {
+	e.preventDefault();
 	overlay.css("display", "block");
 });
 
