@@ -1,12 +1,13 @@
 body, html {
 	margin: 0;
 	padding: 0;
+    height: 100%;
 }
 .container-fluid.bgImage {
 	background: url("bgImage.jpg") no-repeat;
 	width: 100%;
 	background-size: cover;
-	height: 800px;
+	height: 100%;
 }
 p.logo {
 	color: #fff;
@@ -38,7 +39,7 @@ p.logo {
     padding: 0;
     top: 0;
     left: 0;
-    height: 800px;
+    height: 100%;
     position: absolute;
     z-index: 99;
     background-color: rgba(130,0,0, .8);
