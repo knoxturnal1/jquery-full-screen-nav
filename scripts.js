@@ -5,7 +5,8 @@ $("button").on('click', function(e) {
 	overlay.css("display", "block");
 });
 
-$("#close").on('click', function() {
+$("#close").on('click', function(e) {
+	e.preventDefault();
 	overlay.css("display", "none");
 });
 
